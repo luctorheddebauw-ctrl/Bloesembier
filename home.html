@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bloesembier</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="images/favicon2.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="progress"></div>
+
+<!-- AGE GATE -->
+<div class="age-gate-container" data-minimum-age="18" data-too-young-message="Je moet minimaal 18 jaar oud zijn om deze website te bezoeken.">
+  <div class="age-gate-overlay">
+    <div class="age-gate-modal">
+      <div class="age-gate-image">
+        <img src="images/favicon.png" alt="Bloesembier leeftijdscontrole">
+      </div>
+      <h2>Ben je 18+?</h2>
+      <p>Je moet 18 jaar of ouder zijn om deze website te bezoeken.</p>
+      <div class="age-gate-buttons">
+        <button class="age-gate-btn age-gate-btn-yes">Ja</button>
+        <button class="age-gate-btn age-gate-btn-no">Nee</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <div class="nav-logo">
+      <a href="home.html">
+        <img src="images/logo.png" alt="Bloesembier Logo" height="45">
+      </a>
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="desktop-menu">
+      <a href="home.html">Home</a>
+      <a href="bier.html">Bieren</a>
+      <a href="verhaal.html">Verhaal</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="nav-right">
+
+     
+
+      <!-- HAMBURGER -->
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="home.html">Home</a>
+    <a href="bier.html">Bieren</a>
+    <a href="verhaal.html">Verhaal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="images/bloesems.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <img src="images/wit logo.svg" alt="Bloesembier" height="120">
+    </div>
+  </div>
+
+</section>
+
+<!-- PRODUCTEN -->
+<section class="products-section">
+
+  <div class="section-header">
+    <h2>Bloesembieren</h2>
+    <p>Elke fles gemaakt van wat de natuur achterlaat.</p>
+  </div>
+
+  <ul class="bottles-row">
+
+      <li class="bottle-item left-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/original beer.png" alt="Bloesembier Blond fles">
+          </div>
+          <p>Bloesembier</p>
+        </a>
+      </li>
+
+      <li class="bottle-item center-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/rouge beer.png" alt="Bloesembier Fruitig fles">
+          </div>
+          <p>Bloesembier Rouge</p>
+        </a>
+      </li>
+
+      <li class="bottle-item right-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/gold beer.png" alt="Bloesembier Alcoholvrij fles">
+          </div>
+          <p>Bloesembier Gold</p>
+        </a>
+      </li>
+
+      <li class="bottle-item left-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/wild beer.png" alt="Bloesembier IPA fles">
+          </div>
+          <p>Bloesembier Wild</p>
+        </a>
+      </li>
+
+      <li class="bottle-item center-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/original beer.png" alt="Bloesembier Lentebok fles">
+          </div>
+          <p>Bloesembier</p>
+        </a>
+      </li>
+
+      <li class="bottle-item right-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/rouge beer.png" alt="Bloesembier Bok fles">
+          </div>
+          <p>Bloesembier Rouge</p>
+        </a>
+      </li>
+
+      <li class="bottle-item left-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/gold beer.png" alt="Bloesembier Saison fles">
+          </div>
+          <p>Bloesembier Gold</p>
+        </a>
+      </li>
+
+      <li class="bottle-item center-bottle">
+        <a href="bier.html">
+          <div>
+            <img src="images/wild beer.png" alt="Bloesembier Rosé fles">
+          </div>
+          <p>Bloesembier Wild</p>
+        </a>
+      </li>
+
+
+  </ul>
+
+</section>
+
+<!-- NEWSLETTER -->
+
+<!-- STORY -->
+<section class="story-section">
+
+  <div class="section-header">
+    <h2>Ons Verhaal</h2>
+  </div>
+
+  <div class="story-content">
+      <p>
+      Bloesembier ontstond uit een eenvoudig idee: fruit dat in Belgische tuinen blijft hangen, verdient een tweede leven.
+      We brouwen in kleine batches met lokaal fruit en geven elke fles een eerlijk, natuurlijk karakter.
+    </p>
+          
+    <a href="verhaal.html" class="btn-readmore">Lees meer</a>
+
+  </div>
+
+</section>
+
+<div class="newsletter-wrapper">
+
+  <img src="images/peer.png" alt="" class="newsletter-mannetje">
+
+  <section class="newsletter">
+
+    <button class="newsletter-close" id="newsletterClose">✕</button>
+
+    <div class="newsletter-content">
+
+      <h2>Blijf op de hoogte</h2>
+
+      <p>
+        Ontdek nieuwe batches Bloesembier en seizoensupdates.
+      </p>
+
+      <form class="newsletter-form">
+
+        <input
+          type="email"
+          placeholder="Voer je email in"
+          required
+        >
+
+        <button type="submit" class="btn-newsletter">
+          Inschrijven
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-content">
+
+    <!-- FOOTER INFO -->
+    <div class="footer-section">
+      <h3>Bloesembier</h3>
+
+      <p>
+        Ambachtelijke brouwerij uit Vlaanderen met fruit van onze bomen.
+      </p>
+    </div>
+
+    <!-- NAVIGATIE -->
+    <div class="footer-section">
+
+      <h4>Navigatie</h4>
+
+      <a href="home.html">Home</a>
+      <a href="bier.html">Bieren</a>
+      <a href="verhaal.html">Verhaal</a>
+      <a href="contact.html">Contact</a>
+
+    </div>
+
+    <!-- SOCIALS -->
+    <div class="footer-section">
+
+      <h4>Volg ons</h4>
+
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Bloesembier. Alle rechten voorbehouden.</p>
+  </div>
+
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

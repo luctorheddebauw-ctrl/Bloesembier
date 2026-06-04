@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ons Bier | Bloesembier</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="progress"></div>
+
+  <!-- NAV -->
+ <!-- NAVBAR -->
+<nav class="navbar">
+
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <div class="nav-logo">
+      <a href="home.html">
+        <img src="images/logo.png" alt="Bloesembier Logo" height="45">
+      </a>
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="desktop-menu">
+      <a href="home.html">Home</a>
+      <a href="bier.html">Bieren</a>
+      <a href="verhaal.html">Verhaal</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="nav-right">
+
+   
+
+      <!-- HAMBURGER -->
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="home.html">Home</a>
+    <a href="bier.html">Bieren</a>
+    <a href="verhaal.html">Verhaal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+</nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="hero-overlay-light"></div>
+    <div class="page-hero-content">
+      <h1>Onze Bieren</h1>
+      
+    </div>
+  </section>
+
+  <!-- BEER CARDS -->
+  <section class="cards beer-cards">
+
+    <article class="beer-card left-bottle">
+      <div class="beer-image">
+        <img src="images/original beer.png" alt="Bloesembier Blond">
+      </div>
+      <div class="beer-info">
+        <h2>Bloesembier</h2>
+        <p>Een pure en frisse blend van appel en peer. Zacht, natuurlijk en heerlijk in balans.</p>
+        <span class="beer-tag">Klassiek</span>
+      </div>
+    </article>
+
+    <article class="beer-card center-bottle">
+      <div class="beer-image">
+        <img src="images/rouge beer.png" alt="Bloesembier Rouge">
+      </div>
+      <div class="beer-info">
+        <h2>Bloesembier Rouge</h2>
+        <p>Een elegante blend van appel en peer, verfijnd met de volle smaak van rijpe kers.</p>
+        <span class="beer-tag">Kers</span>
+      </div>
+    </article>
+
+    <article class="beer-card right-bottle">
+      <div class="beer-image">
+        <img src="images/gold beer.png" alt="Bloesembier Gold">
+      </div>
+      <div class="beer-info">
+        <h2>Bloesembier Gold</h2>
+        <p>Een zachte en zonnige combinatie van appel en peer, aangevuld met een warme toets van abrikoos.</p>
+        <span class="beer-tag">Abrikoos</span>
+      </div>
+    </article>
+
+    <article class="beer-card left-bottle">
+      <div class="beer-image">
+        <img src="images/wild beer.png" alt="Bloesembier Wild">
+      </div>
+      <div class="beer-info">
+        <h2>Bloesembier  Wild</h2>
+        <p>Een frisse, karaktervolle mix van appel en peer, met de diepe fruitige smaak van braam.</p>
+        <span class="beer-tag">Braam</span>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery-section">
+    <h2>Nu ook verkrijgbaar</h2>
+    <div class="gallery-grid">
+      <div class="gallery-card">
+        <div class="gallery-image">
+          <img src="images/bierblik.png" alt="Onze bomen">
+        </div>
+        <h3>In blik</h3>
+        <p>Gemakkelijk om mee te nemen, maar niet om weg te gooien.</p>
+      </div>
+      <div class="gallery-card-wrapper">
+
+    <img src="images/appel.png" alt="" class="gallery-peer">
+
+    <div class="gallery-card">
+        <div class="gallery-image">
+            <img src="images/sixpack.jpg" alt="Het Brouwproces">
+        </div>
+        <h3>In six-pack</h3>
+        <p>Heb je niet genoeg met 1, neem er dan 6.</p>
+    </div>
+
+</div>
+      
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <button class="newsletter-close" id="newsletterClose">✕</button>
+    <div class="newsletter-content">
+      <h2>Blijf op de hoogte</h2>
+      <p>Ontvang updates over nieuwe releases en exclusieve aanbiedingen.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Voer je email in" required>
+        <button type="submit" class="btn-newsletter">Inschrijven</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Bloesembier</h3>
+        <p>Ambachtelijk brouwerij uit Vlaanderen met fruit van onze bomen.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Navigatie</h4>
+        <a href="home.html">Home</a>
+        <a href="bier.html">Bieren</a>
+        <a href="verhaal.html">Verhaal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Volg ons</h4>
+        <a href="#facebook">Facebook</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#twitter">Twitter</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bloesembier. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

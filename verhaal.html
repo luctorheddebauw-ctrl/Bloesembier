@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Verhaal | Bloesembier</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="progress"></div>
+
+  <!-- NAV -->
+ <!-- NAVBAR -->
+<nav class="navbar">
+
+  <div class="nav-container">
+
+    <!-- LOGO -->
+    <div class="nav-logo">
+      <a href="home.html">
+        <img src="images/logo.png" alt="Bloesembier Logo" height="45">
+      </a>
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="desktop-menu">
+      <a href="home.html">Home</a>
+      <a href="bier.html">Bieren</a>
+      <a href="verhaal.html">Verhaal</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="nav-right">
+
+
+      <!-- HAMBURGER -->
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="home.html">Home</a>
+    <a href="bier.html">Bieren</a>
+    <a href="verhaal.html">Verhaal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+</nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="hero-overlay-light"></div>
+    <div class="page-hero-content">
+      <h1>Ons Verhaal</h1>
+      
+    </div>
+  </section>
+
+  <!-- STORY SECTION -->
+  <section class="story-section">
+    <div class="story-container">
+      <div class="story-text">
+        <span class="story-label">Wat is Bloesembier</span>
+        <h2>Gebrouwen met wat bleef hangen</h2>
+        <p>
+          Bloesembier ontstond uit een eenvoudig idee: het fruit dat in Vlaamse tuinen blijft hangen, verdient een tweede leven.
+        </p>
+        <p>
+          We maken een fris fruitbier met ingrediënten die rechtstreeks uit lokale tuinen komen natuurlijk, eerlijk en zonder verspilling.
+        </p>
+        <p>
+          We gebruiken fruit dat anders verloren zou gaan aan bomen in tuinen en boomgaarden. Wat blijft hangen, wordt bier.  
+        </p>
+        <p>Bieren voor lange lenteavonden, voor samenkomen met vrienden, voor momenten waarop alles even mag vertragen.
+          Fris, natuurlijk en gemaakt om bewust van te genieten.</p>  
+        
+      </div>
+      <div class="story-image">
+        <img src="images/tree.jpg" alt="Onze bomen">
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES SECTION -->
+  <section class="values-section">
+    <h2>Onze Waarden</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-icon2">
+          <img src="images/favicon.png" alt="icon">
+      </div>
+        <h3>Biologisch</h3>
+        <p>We brouwen met fruit van onze eigen bomen, zonder kunstmatige toevoegingen.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon2">
+          <img src="images/favicon.png" alt="icon"></div>
+        <h3>Vlaams Erfgoed</h3>
+        <p>Ambachtelijk brouwen volgens Belgische tradities, met moderne creativiteit.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon2">
+          <img src="images/favicon.png" alt="icon"></div>
+        <h3>Voor Momenten</h3>
+        <p>Elk bier is gemaakt voor gezelligheid, vriendschap en mooie herinneringen.</p>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <button class="newsletter-close" id="newsletterClose">✕</button>
+    <div class="newsletter-content">
+      <h2>Blijf op de hoogte</h2>
+      <p>Ontvang updates over nieuwe releases en exclusieve aanbiedingen.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Voer je email in" required>
+        <button type="submit" class="btn-newsletter">Inschrijven</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Bloesembier</h3>
+        <p>Ambachtelijk brouwerij uit Vlaanderen met fruit van onze bomen.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Navigatie</h4>
+        <a href="home.html">Home</a>
+        <a href="bier.html">Ons Bier</a>
+        <a href="verhaal.html">Verhaal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Volg ons</h4>
+        <a href="#facebook">Facebook</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#twitter">Twitter</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bloesembier. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
